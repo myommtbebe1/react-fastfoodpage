@@ -2,7 +2,7 @@
 
 import Navbar from "./components/Navbar"
 import Herosection from "./components/Herosection"
-import { Whatweoffer } from "./components/whatweoffer"
+import  Whatweoffer  from "./components/Whatweoffer"
 import Feedback from "./components/Feedback"
 import ContactUs from "./components/ContactUs"
 

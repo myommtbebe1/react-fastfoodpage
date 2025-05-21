@@ -24,7 +24,7 @@ const menus = [
 ];
 
 const categories = ["all", "food", "drink", "snack"];
-export const Whatweoffer = () => {
+const Whatweoffer = () => {
 
     const[activeCategory,setActiveCategory]=useState("all");
     const filteredMenus = menus.filter((menu) => {
@@ -75,3 +75,4 @@ export const Whatweoffer = () => {
   )
 }
 
+export default Whatweoffer;
